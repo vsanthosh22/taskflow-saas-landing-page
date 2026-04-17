@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaskFlow – Manage Projects. Collaborate Faster.</title>
+
+    <!-- Bootstrap CSS (replace with your local path) -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <!-- ================================
+         NAVBAR
+    ================================= -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white" id="mainNavbar">
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="navbar-brand fw-800" href="#">
+                <span class="logo-icon"><i class="fa-solid fa-bolt"></i></span>
+                TaskFlow
+            </a>
+
+            <!-- Mobile Toggle -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navMenu"
+                    aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Nav Links -->
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav mx-auto gap-1">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#how-it-works">How It Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                </ul>
+
+                <!-- Navbar Buttons -->
+                <div class="d-flex align-items-center gap-2 mt-3 mt-lg-0">
+                    <a href="#" class="btn btn-outline-nav">Log In</a>
+                    <a href="#" class="btn btn-primary-custom">Start Free Trial</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- ================================
+         HERO SECTION
+    ================================= -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- Hero Text -->
+                <div class="col-lg-6 hero-text">
+                    <div class="hero-badge">
+                        <i class="fa-solid fa-star"></i>
+                        Rated #1 Project Tool by 10,000+ Teams
+                    </div>
+                    <h1 class="hero-heading">
+                        Manage Projects.<br />
+                        Collaborate Faster.<br />
+                        <span class="text-highlight">Deliver More.</span>
+                    </h1>
+                    <p class="hero-subtext">
+                        TaskFlow brings your team, tasks, and timelines together in one
+                        simple platform. No more missed deadlines or scattered updates.
+                    </p>
+
+                    <!-- CTA Buttons -->
+                    <div class="hero-cta d-flex flex-wrap gap-3">
+                        <a href="#" class="btn btn-primary-custom btn-lg-custom">
+                            Start Free Trial
+                            <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </a>
+                        <a href="#" class="btn btn-outline-custom btn-lg-custom">
+                            <i class="fa-solid fa-circle-play me-2"></i>
+                            Watch Demo
+                        </a>
+                    </div>
+
+                    <!-- Hero Trust Text -->
+                    <p class="hero-trust">
+                        <i class="fa-solid fa-shield-halved me-1"></i>
+                        No credit card required &nbsp;·&nbsp; Free 14-day trial &nbsp;·&nbsp; Cancel anytime
+                    </p>
+                </div>
+
+                <!-- Hero Image -->
+                <div class="col-lg-6 hero-image-col">
+                    <div class="hero-image-wrapper">
+                        <img src="https://placehold.co/620x420/EFF6FF/2563EB?text=TaskFlow+Dashboard"
+                             alt="TaskFlow Dashboard Preview"
+                             class="hero-img img-fluid" />
+                        <!-- Floating Badge 1 -->
+                        <div class="floating-badge badge-top">
+                            <i class="fa-solid fa-check-circle me-1"></i>
+                            12 tasks completed today
+                        </div>
+                        <!-- Floating Badge 2 -->
+                        <div class="floating-badge badge-bottom">
+                            <i class="fa-solid fa-users me-1"></i>
+                            5 team members active
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================
+         TRUSTED BY SECTION
+    ================================= -->
+    <section class="trusted-section">
+        <div class="container">
+            <p class="trusted-label">Trusted by teams at</p>
+            <div class="trusted-logos d-flex flex-wrap justify-content-center align-items-center gap-4">
+                <div class="trusted-logo-item">Acme Corp</div>
+                <div class="trusted-logo-item">NovaTech</div>
+                <div class="trusted-logo-item">Brightworks</div>
+                <div class="trusted-logo-item">Skyline HQ</div>
+                <div class="trusted-logo-item">PulseMedia</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================
+         FEATURES SECTION
+    ================================= -->
+    <section class="features-section" id="features">
+        <div class="container">
+
+            <!-- Section Header -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-6 text-center">
+                    <span class="section-badge">Features</span>
+                    <h2 class="section-heading">Everything your team needs</h2>
+                    <p class="section-subtext">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Feature Cards Grid -->
+            <div class="row g-4">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon icon-blue">
+                            <i class="fa-solid fa-list-check"></i>
+                        </div>
+                        <h5 class="feature-title">Task Management</h5>
+                        <p class="feature-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Ut enim ad minim veniam quis nostrud exercitation.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon icon-green">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+                        <h5 class="feature-title">Team Collaboration</h5>
+                        <p class="feature-text">
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur excepteur.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon icon-purple">
+                            <i class="fa-solid fa-clock"></i>
+                        </div>
+                        <h5 class="feature-title">Time Tracking</h5>
+                        <p class="feature-text">
+                            Excepteur sint occaecat cupidatat non proident sunt in culpa
+                            qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon icon-orange">
+                            <i class="fa-solid fa-file-arrow-up"></i>
+                        </div>
+                        <h5 class="feature-title">File Sharing</h5>
+                        <p class="feature-text">
+                            Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
+                            eiusmod tempor incididunt ut labore et magna aliqua.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon icon-teal">
+                            <i class="fa-solid fa-chart-bar"></i>
+                        </div>
+                        <h5 class="feature-title">Reporting & Analytics</h5>
+                        <p class="feature-text">
+                            Ut enim ad minim veniam quis nostrud exercitation ullamco laboris
+                            nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon icon-pink">
+                            <i class="fa-solid fa-plug"></i>
+                        </div>
+                        <h5 class="feature-title">Integrations</h5>
+                        <p class="feature-text">
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur sint.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================
+         HOW IT WORKS SECTION
+    ================================= -->
+    <section class="how-section" id="how-it-works">
+        <div class="container">
+
+            <!-- Section Header -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-6 text-center">
+                    <span class="section-badge">How It Works</span>
+                    <h2 class="section-heading">Up and running in minutes</h2>
+                    <p class="section-subtext">
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit
+                        sed do eiusmod tempor incididunt ut labore et dolore.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Steps Row -->
+            <div class="row justify-content-center align-items-center g-5">
+
+                <!-- Step 1 -->
+                <div class="col-lg-3 text-center">
+                    <div class="how-step">
+                        <div class="step-number">01</div>
+                        <div class="step-image-wrap">
+                            <!--
+                              SUGGESTED IMAGE:
+                              A screenshot of an account/workspace creation form UI.
+                              Recommended: placehold.co or your own mockup screenshot.
+                              Size: 400x280px
+                            -->
+                            <img src="https://placehold.co/400x280/EFF6FF/2563EB?text=Create+Workspace"
+                                 alt="Create Workspace"
+                                 class="step-img img-fluid" />
+                        </div>
+                        <h5 class="step-title">Create Your Workspace</h5>
+                        <p class="step-text">
+                            Lorem ipsum dolor sit amet consectetur adipiscing elit
+                            sed do eiusmod tempor incididunt labore.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Connector Arrow -->
+                <div class="col-lg-auto d-none d-lg-flex justify-content-center">
+                    <div class="step-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="col-lg-3 text-center">
+                    <div class="how-step">
+                        <div class="step-number">02</div>
+                        <div class="step-image-wrap">
+                            <!--
+                              SUGGESTED IMAGE:
+                              A screenshot of a team invite / member management screen.
+                              Size: 400x280px
+                            -->
+                            <img src="https://placehold.co/400x280/F0FDF4/16A34A?text=Invite+Team"
+                                 alt="Invite Your Team"
+                                 class="step-img img-fluid" />
+                        </div>
+                        <h5 class="step-title">Invite Your Team</h5>
+                        <p class="step-text">
+                            Ut enim ad minim veniam quis nostrud exercitation ullamco
+                            laboris nisi aliquip ex commodo.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Connector Arrow -->
+                <div class="col-lg-auto d-none d-lg-flex justify-content-center">
+                    <div class="step-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="col-lg-3 text-center">
+                    <div class="how-step">
+                        <div class="step-number">03</div>
+                        <div class="step-image-wrap">
+                            <!--
+                              SUGGESTED IMAGE:
+                              A screenshot of a project dashboard or task board (Kanban style).
+                              Size: 400x280px
+                            -->
+                            <img src="https://placehold.co/400x280/FFF7ED/EA580C?text=Start+Delivering"
+                                 alt="Start Delivering"
+                                 class="step-img img-fluid" />
+                        </div>
+                        <h5 class="step-title">Start Delivering</h5>
+                        <p class="step-text">
+                            Duis aute irure dolor in reprehenderit in voluptate velit
+                            cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================
+         PRICING SECTION
+    ================================= -->
+    <section class="pricing-section" id="pricing">
+        <div class="container">
+
+            <!-- Section Header -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-6 text-center">
+                    <span class="section-badge">Pricing</span>
+                    <h2 class="section-heading">Simple, transparent pricing</h2>
+                    <p class="section-subtext">
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                        No hidden fees. No surprises.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Pricing Cards -->
+            <div class="row justify-content-center g-4">
+
+                <!-- Starter -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card">
+                        <div class="plan-label">Starter</div>
+                        <div class="plan-price">$0 <span>/month</span></div>
+                        <p class="plan-desc">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                        <ul class="plan-features">
+                            <li><i class="fa-solid fa-check"></i> Up to 3 projects</li>
+                            <li><i class="fa-solid fa-check"></i> 5 team members</li>
+                            <li><i class="fa-solid fa-check"></i> 1GB storage</li>
+                            <li><i class="fa-solid fa-check"></i> Basic reporting</li>
+                            <li class="disabled"><i class="fa-solid fa-xmark"></i> Advanced analytics</li>
+                            <li class="disabled"><i class="fa-solid fa-xmark"></i> Priority support</li>
+                        </ul>
+                        <a href="#" class="btn btn-plan-outline w-100">Get Started Free</a>
+                    </div>
+                </div>
+
+                <!-- Pro — Popular -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card pricing-card-popular">
+                        <div class="popular-badge">Most Popular</div>
+                        <div class="plan-label">Pro</div>
+                        <div class="plan-price">$12 <span>/month</span></div>
+                        <p class="plan-desc">Ut enim ad minim veniam quis nostrud exercitation ullamco.</p>
+                        <ul class="plan-features">
+                            <li><i class="fa-solid fa-check"></i> Unlimited projects</li>
+                            <li><i class="fa-solid fa-check"></i> 25 team members</li>
+                            <li><i class="fa-solid fa-check"></i> 50GB storage</li>
+                            <li><i class="fa-solid fa-check"></i> Advanced reporting</li>
+                            <li><i class="fa-solid fa-check"></i> Advanced analytics</li>
+                            <li class="disabled"><i class="fa-solid fa-xmark"></i> Priority support</li>
+                        </ul>
+                        <a href="#" class="btn btn-plan-primary w-100">Start Free Trial</a>
+                    </div>
+                </div>
+
+                <!-- Enterprise -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card">
+                        <div class="plan-label">Enterprise</div>
+                        <div class="plan-price">$49 <span>/month</span></div>
+                        <p class="plan-desc">Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+                        <ul class="plan-features">
+                            <li><i class="fa-solid fa-check"></i> Unlimited projects</li>
+                            <li><i class="fa-solid fa-check"></i> Unlimited members</li>
+                            <li><i class="fa-solid fa-check"></i> 500GB storage</li>
+                            <li><i class="fa-solid fa-check"></i> Advanced reporting</li>
+                            <li><i class="fa-solid fa-check"></i> Advanced analytics</li>
+                            <li><i class="fa-solid fa-check"></i> Priority support</li>
+                        </ul>
+                        <a href="#" class="btn btn-plan-outline w-100">Contact Sales</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================
+         TESTIMONIALS SECTION
+    ================================= -->
+    <section class="testimonials-section" id="testimonials">
+        <div class="container">
+
+            <!-- Section Header -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-6 text-center">
+                    <span class="section-badge">Testimonials</span>
+                    <h2 class="section-heading">Loved by teams worldwide</h2>
+                    <p class="section-subtext">
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit
+                        sed do eiusmod tempor incididunt labore dolore magna.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Testimonial Cards -->
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                        <p class="testimonial-text">
+                            "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua enim
+                            ad minim veniam quis nostrud exercitation."
+                        </p>
+                        <div class="testimonial-author">
+                            <!--
+                              SUGGESTED IMAGE:
+                              A professional headshot or avatar photo.
+                              Use UI Avatars API for placeholder initials:
+                              https://ui-avatars.com/api/?name=Alex+Morgan&background=DBEAFE&color=2563EB
+                              Size: 48x48px, circular
+                            -->
+                            <img src="https://placehold.co/48x48/DBEAFE/2563EB?text=AM"
+                                 alt="Alex Morgan"
+                                 class="author-avatar" />
+                            <div class="author-info">
+                                <div class="author-name">Alex Morgan</div>
+                                <div class="author-role">Product Manager, Acme Corp</div>
+                            </div>
+                        </div>
+                        <div class="star-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                        <p class="testimonial-text">
+                            "Ut enim ad minim veniam quis nostrud exercitation ullamco laboris
+                            nisi ut aliquip ex ea commodo consequat duis aute irure dolor
+                            reprehenderit in voluptate velit esse cillum."
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="https://placehold.co/48x48/DCFCE7/16A34A?text=SR"
+                                 alt="Sara Reeves"
+                                 class="author-avatar" />
+                            <div class="author-info">
+                                <div class="author-name">Sara Reeves</div>
+                                <div class="author-role">Engineering Lead, NovaTech</div>
+                            </div>
+                        </div>
+                        <div class="star-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                        <p class="testimonial-text">
+                            "Excepteur sint occaecat cupidatat non proident sunt in culpa
+                            qui officia deserunt mollit anim id est laborum sed perspiciatis
+                            unde omnis iste natus error sit voluptatem."
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="https://placehold.co/48x48/FEF3C7/D97706?text=JK"
+                                 alt="James Kim"
+                                 class="author-avatar" />
+                            <div class="author-info">
+                                <div class="author-name">James Kim</div>
+                                <div class="author-role">CEO, Brightworks</div>
+                            </div>
+                        </div>
+                        <div class="star-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================
+         CTA BANNER SECTION
+    ================================= -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-inner">
+                <!--
+                  SUGGESTED IMAGE (optional):
+                  A subtle abstract background pattern or team working illustration.
+                  Place as a background-image on .cta-inner in CSS if desired.
+                  Recommended source: undraw.co — search "team work" or "project"
+                  Export as SVG and use as CSS background.
+                -->
+                <div class="cta-content text-center">
+                    <h2 class="cta-heading">Ready to get started?</h2>
+                    <p class="cta-subtext">
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                        Start your free trial today — no credit card required.
+                    </p>
+                    <div class="d-flex justify-content-center gap-3 flex-wrap">
+                        <a href="#" class="btn btn-cta-white btn-lg-custom">
+                            Start Free Trial
+                            <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </a>
+                        <a href="#" class="btn btn-cta-outline btn-lg-custom">
+                            Talk to Sales
+                        </a>
+                    </div>
+                    <p class="cta-note mt-3">
+                        <i class="fa-solid fa-shield-halved me-1"></i>
+                        14-day free trial &nbsp;·&nbsp; No credit card &nbsp;·&nbsp; Cancel anytime
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================
+         FOOTER
+    ================================= -->
+    <footer class="site-footer">
+        <div class="container">
+
+            <!-- Footer Top -->
+            <div class="row g-5 footer-top">
+
+                <!-- Brand Column -->
+                <div class="col-lg-4 col-md-6">
+                    <a class="footer-brand" href="#">
+                        <span class="logo-icon"><i class="fa-solid fa-bolt"></i></span>
+                        TaskFlow
+                    </a>
+                    <p class="footer-tagline">
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit
+                        sed do eiusmod tempor incididunt labore.
+                    </p>
+                    <!-- Social Icons -->
+                    <div class="footer-social d-flex gap-3 mt-3">
+                        <a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <!-- Product Links -->
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h6 class="footer-col-heading">Product</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Integrations</a></li>
+                        <li><a href="#">Changelog</a></li>
+                        <li><a href="#">Roadmap</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company Links -->
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h6 class="footer-col-heading">Company</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources Links -->
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h6 class="footer-col-heading">Resources</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">API Reference</a></li>
+                        <li><a href="#">Status</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal Links -->
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h6 class="footer-col-heading">Legal</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom d-flex flex-wrap justify-content-between align-items-center gap-3">
+                <p class="footer-copy">© 2026 TaskFlow. All rights reserved.</p>
+                <div class="footer-bottom-links d-flex gap-4">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Fontawesome Icons JS -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom JS Script -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
